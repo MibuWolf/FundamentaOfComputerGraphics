@@ -1,5 +1,6 @@
+@echo off
 del.vs /Q
-del CMakeFiles /Q
+del /Q /s CMakeFiles 
 del Debug /Q
 del FundamentaOfComputerGraphics.dir /Q
 del Win32 /Q
@@ -11,3 +12,4 @@ del *.vcxproj /Q
 del *.vcxproj.filters /Q
 del *.vcxproj.user /Q
 del *.sln /Q
+pause
